@@ -1,2 +1,0 @@
-# LidlScraper
-scrapinglidl
