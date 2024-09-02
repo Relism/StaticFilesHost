@@ -1,0 +1,11 @@
+fs_snapshot: "https://github.com/Relism/StaticFilesHost/raw/main/fabric-tests.zip"
+
+overrides:
+  - file: "server.properties"
+    replace:
+      - key: "gamemode"
+        value: "trergf"
+  - file: "server.properties"
+    replace:
+      - line: 5
+        value: "cazzo=culomerdasborra"
