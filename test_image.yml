@@ -1,3 +1,7 @@
+name: "MyServerConfig"
+description: "Configuration for my server including gamemode and custom settings."
+entrypoint: "server.jar"
+
 fs_snapshot: "https://github.com/Relism/StaticFilesHost/raw/main/fabric-tests.zip"
 
 overrides:
@@ -9,3 +13,4 @@ overrides:
     replace:
       - line: 5
         value: "cazzo=culomerdasborra"
+
