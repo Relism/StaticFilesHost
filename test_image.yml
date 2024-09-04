@@ -8,9 +8,13 @@ overrides:
   - file: "server.properties"
     replace:
       - key: "gamemode"
-        value: "trergf"
+        value: "survival"
   - file: "server.properties"
     replace:
-      - line: 5
-        value: "cazzo=culomerdasborra"
+      - key: "server-port"
+        value: "%PORT%"
+  - file: "server.properties"
+    replace:
+      - key: "motd"
+        value: "Running on ServerPool!"
 
