@@ -9,12 +9,7 @@ overrides:
     replace:
       - key: "gamemode"
         value: "survival"
-  - file: "server.properties"
-    replace:
       - key: "server-port"
         value: "%PORT%"
-  - file: "server.properties"
-    replace:
       - key: "motd"
         value: "Running on ServerPool!"
-
