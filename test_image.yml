@@ -1,5 +1,5 @@
-name: "MyServerConfig"
-description: "Configuration for my server including gamemode and custom settings."
+name: "Test Image"
+description: "Blah blah blah."
 entrypoint: "server.jar"
 
 fs_snapshot: "https://github.com/Relism/StaticFilesHost/raw/main/fabric-tests.zip"
